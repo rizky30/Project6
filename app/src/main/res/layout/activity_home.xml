@@ -1,73 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingBottom="10dp"
-    android:weightSum="1"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.Home">
+    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageViewt"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/sugengrawuh" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:weightSum="1"
+        tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.Home">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="150dp"
-        android:layout_height="25dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/belajarbahasajawa" />
+        <ImageView
+            android:id="@+id/imageViewt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sugengrawuh" />
 
-    <ImageView
-        android:id="@+id/imageViewAksara"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="30dp"
-        android:src="@drawable/aksarajawa" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/belajarbahasajawa" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Aksara Jawa (Huruf Jawa)" />
+        <ImageView
+            android:id="@+id/imageViewAksara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="30dp"
+            android:src="@drawable/aksarajawa" />
 
-    <ImageView
-        android:id="@+id/imageViewTembang"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="25dp"
-        android:src="@drawable/tembang" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Aksara Jawa (Huruf Jawa)" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="10dp"
-        android:text="Tembang Jawa (Lagu Jawa)" />
+        <ImageView
+            android:id="@+id/imageViewTembang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="25dp"
+            android:src="@drawable/tembang" />
 
-    <ImageView
-        android:id="@+id/imageViewKewan"
-        android:layout_width="90dp"
-        android:layout_height="87dp"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="25dp"
-        android:src="@drawable/kewan" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:text="Tembang Jawa (Lagu Jawa)" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="10dp"
-        android:text="Kewan (Hewan)" />
+        <ImageView
+            android:id="@+id/imageViewKewan"
+            android:layout_width="90dp"
+            android:layout_height="87dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="25dp"
+            android:src="@drawable/kewan" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:text="Kewan (Hewan)" />
+
+    </LinearLayout>
+</ScrollView>
+
