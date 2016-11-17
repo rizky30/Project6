@@ -1,12 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:weightSum="1"
     tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.TembangMainActivity">
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apa itu tembang??" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tembang adalah istilah lagu dalam bahasa jawa" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="contoh tembang" />
+
+        <ImageView
+            android:id="@+id/imageViewKodok"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="25dp"
+            android:src="@drawable/note" />
+
+        <TextView
+            android:id="@+id/textViewKodok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Tembang Kodok Ngorek" />
+
+        <ImageView
+            android:id="@+id/imageViewLir"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="25dp"
+            android:src="@drawable/note" />
+
+        <TextView
+            android:id="@+id/textViewLir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Tembang Lir Ilir" />
+
+        <ImageView
+            android:id="@+id/imageViewMenthok"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="25dp"
+            android:src="@drawable/note" />
+
+        <TextView
+            android:id="@+id/textViewMenthok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Tembang Menthok Tak Kandani" />
+
+        <ImageView
+            android:id="@+id/imageViewSluku"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="25dp"
+            android:src="@drawable/note" />
+
+        <TextView
+            android:id="@+id/textViewSluku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Tembang Sluku-Sluku Bathok" />
+
+    </LinearLayout>
+</ScrollView>

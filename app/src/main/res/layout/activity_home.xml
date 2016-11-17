@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/home">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,25 +15,11 @@
         tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.Home">
 
         <ImageView
-            android:id="@+id/imageViewt"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:src="@drawable/sugengrawuh" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="150dp"
-            android:layout_height="25dp"
-            android:layout_gravity="center_horizontal"
-            android:src="@drawable/belajarbahasajawa" />
-
-        <ImageView
             android:id="@+id/imageViewAksara"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:paddingTop="30dp"
+            android:paddingTop="120dp"
             android:src="@drawable/aksarajawa" />
 
         <TextView
