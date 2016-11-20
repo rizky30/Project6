@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,4 +10,40 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.KewanMainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anak Kewan"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        style="@style/Base.TextAppearance.AppCompat.Headline"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewGajah"
+        android:src="@drawable/gajah"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewSapi"
+        android:src="@drawable/sapi"
+        android:layout_below="@+id/imageViewGajah"
+        android:layout_toLeftOf="@+id/imageViewGajah"
+        android:layout_toStartOf="@+id/imageViewGajah"
+        android:layout_marginTop="61dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewKambing"
+        android:src="@drawable/kambing"
+        android:layout_alignTop="@+id/imageViewSapi"
+        android:layout_toRightOf="@+id/imageViewGajah"
+        android:layout_toEndOf="@+id/imageViewGajah"/>
 </RelativeLayout>
