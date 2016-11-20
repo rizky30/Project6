@@ -1,9 +1,9 @@
 package id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
-public class ThaActivity extends AppCompatActivity {
+public class ThaActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
