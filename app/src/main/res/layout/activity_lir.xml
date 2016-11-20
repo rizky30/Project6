@@ -3,51 +3,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgtembang"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.LirActivity">
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="76dp"
-        android:text="Lir ilir" />
+    <ImageView
+        android:id="@+id/imageViewTLirilir"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/buttonPlay"
+        android:layout_alignLeft="@+id/buttonPlay"
+        android:layout_alignStart="@+id/buttonPlay"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="25dp"
+        android:src="@drawable/note" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_below="@+id/textView8"
+        android:id="@+id/imageViewLir"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/note" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="47dp"
+        android:src="@drawable/lirilir" />
 
     <Button
         android:id="@+id/buttonPlay"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView2"
-        android:layout_centerHorizontal="true"
-        android:text="Mulai" />
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/buttonPause"
+        android:layout_alignLeft="@+id/buttonPause"
+        android:layout_alignStart="@+id/buttonPause"
+        android:text="MULAI" />
 
     <Button
         android:id="@+id/buttonPause"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/buttonPlay"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/buttonStop"
         android:layout_centerHorizontal="true"
-        android:text="Mandek" />
+        android:text="MANDEK" />
 
     <Button
         android:id="@+id/buttonStop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/buttonPause"
-        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/buttonPause"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/buttonPause"
         android:text="Rampung" />
 
 </RelativeLayout>
