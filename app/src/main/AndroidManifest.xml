@@ -8,7 +8,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".Home" />
         <activity android:name=".SplashActivity">
             <intent-filter>
@@ -23,7 +22,27 @@
         <activity android:name=".KodokActivity" />
         <activity android:name=".LirActivity" />
         <activity android:name=".MenthokActivity" />
-        <activity android:name=".SlukuActivity"></activity>
+        <activity android:name=".SlukuActivity" />
+        <activity android:name=".HaActivity" />
+        <activity android:name=".NaActivity" />
+        <activity android:name=".CaActivity" />
+        <activity android:name=".RaActivity" />
+        <activity android:name=".KaActivity" />
+        <activity android:name=".DaActivity" />
+        <activity android:name=".TaActivity" />
+        <activity android:name=".SaActivity" />
+        <activity android:name=".WaActivity" />
+        <activity android:name=".LaActivity" />
+        <activity android:name=".PaActivity" />
+        <activity android:name=".DhaActivity" />
+        <activity android:name=".JaActivity" />
+        <activity android:name=".YaActivity" />
+        <activity android:name=".NyaActivity" />
+        <activity android:name=".MaActivity" />
+        <activity android:name=".GaActivity" />
+        <activity android:name=".BaActivity" />
+        <activity android:name=".ThaActivity" />
+        <activity android:name=".NgaActivity"></activity>
     </application>
 
 </manifest>
