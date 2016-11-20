@@ -1,9 +1,10 @@
 package id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SapiActivity extends AppCompatActivity
+public class SapiActivity extends Activity
 {
 
     @Override
