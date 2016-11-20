@@ -3,34 +3,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgg">
+    android:background="@drawable/bgtembang">
 
     <LinearLayout
         android:layout_width="match_parent"
-    android:layout_height="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingBottom="10dp"
         android:weightSum="1"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.TembangMainActivity">
+        tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.TembangMainActivity">
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Apa itu tembang??" />
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tembang adalah istilah lagu dalam bahasa jawa" />
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:id="@+id/imageViewApaTembang"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            android:text="contoh tembang" />
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/apatembang" />
+
+        <ImageView
+            android:id="@+id/imageViewDefinisi"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/definisi" />
 
         <ImageView
             android:id="@+id/imageViewKodok"
@@ -40,12 +37,13 @@
             android:paddingTop="25dp"
             android:src="@drawable/note" />
 
-        <TextView
-            android:id="@+id/textViewKodok"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:id="@+id/imageViewTkodok"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
             android:layout_gravity="center_horizontal"
-            android:text="Tembang Kodok Ngorek" />
+            android:src="@drawable/kodokngorek" />
+
 
         <ImageView
             android:id="@+id/imageViewLir"
@@ -55,12 +53,13 @@
             android:paddingTop="25dp"
             android:src="@drawable/note" />
 
-        <TextView
-            android:id="@+id/textViewLir"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:id="@+id/imageViewTLirilir"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
             android:layout_gravity="center_horizontal"
-            android:text="Tembang Lir Ilir" />
+            android:src="@drawable/lirilir" />
+
 
         <ImageView
             android:id="@+id/imageViewMenthok"
@@ -70,12 +69,13 @@
             android:paddingTop="25dp"
             android:src="@drawable/note" />
 
-        <TextView
-            android:id="@+id/textViewMenthok"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:id="@+id/imageViewTMenthok"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
             android:layout_gravity="center_horizontal"
-            android:text="Tembang Menthok Tak Kandani" />
+            android:src="@drawable/menthok" />
+
 
         <ImageView
             android:id="@+id/imageViewSluku"
@@ -85,12 +85,12 @@
             android:paddingTop="25dp"
             android:src="@drawable/note" />
 
-        <TextView
-            android:id="@+id/textViewSluku"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:id="@+id/imageViewTSluku"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
             android:layout_gravity="center_horizontal"
-            android:text="Tembang Sluku-Sluku Bathok" />
+            android:src="@drawable/sluku" />
 
     </LinearLayout>
 </ScrollView>
