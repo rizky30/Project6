@@ -49,6 +49,16 @@
         </activity>
         <activity android:name=".SapiActivity">
         </activity>
+        <activity android:name=".KethekActivity">
+        </activity>
+        <activity android:name=".JaranActivity">
+        </activity>
+        <activity android:name=".KucingActivity">
+        </activity>
+        <activity android:name=".KijangActivity">
+        </activity>
+        <activity android:name=".BebekActivity">
+        </activity>
     </application>
 
 </manifest>

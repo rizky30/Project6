@@ -43,6 +43,51 @@ public class KewanMainActivity extends Activity {
                 startActivity(new Intent(KewanMainActivity.this, KambingActivity.class));
             }
         });
+
+        findViewById(R.id.imageViewBebek).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(KewanMainActivity.this, BebekActivity.class));
+            }
+        });
+
+        findViewById(R.id.imageViewKijang).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(KewanMainActivity.this, KijangActivity.class));
+            }
+        });
+
+        findViewById(R.id.imageViewKucing).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(KewanMainActivity.this, KucingActivity.class));
+            }
+        });
+
+        findViewById(R.id.imageViewMonyet).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(KewanMainActivity.this, KethekActivity.class));
+            }
+        });
+
+        findViewById(R.id.imageViewJaran).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(KewanMainActivity.this, JaranActivity.class));
+            }
+        });
     }
 
     @Override

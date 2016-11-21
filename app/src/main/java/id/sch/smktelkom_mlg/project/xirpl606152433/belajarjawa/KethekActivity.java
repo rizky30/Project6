@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-public class SapiActivity extends Activity
+public class KethekActivity extends Activity
 {
     private static final String TAG = "LivecycleTag";
     MediaPlayer mediaPlayer;
@@ -15,7 +15,7 @@ public class SapiActivity extends Activity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sapi);
+        setContentView(R.layout.activity_kethek);
         Log.d(TAG, "onCreate: ");
         mediaPlayer = MediaPlayer.create(this, R.raw.song);
     }

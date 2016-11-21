@@ -9,24 +9,28 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.KewanMainActivity">
-
+    
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Anak Kewan"
+        android:text="ANAK KEWAN"
         android:id="@+id/textView11"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        style="@style/Base.TextAppearance.AppCompat.Headline"/>
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="@color/accent_material_light"/>
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/imageViewGajah"
         android:src="@drawable/gajah"
-        android:layout_marginTop="63dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
         android:layout_below="@+id/textView11"
-        android:layout_centerHorizontal="true"/>
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
 
     <ImageView
         android:layout_width="100dp"
@@ -34,16 +38,67 @@
         android:id="@+id/imageViewSapi"
         android:src="@drawable/sapi"
         android:layout_below="@+id/imageViewGajah"
-        android:layout_toLeftOf="@+id/imageViewGajah"
-        android:layout_toStartOf="@+id/imageViewGajah"
-        android:layout_marginTop="61dp"/>
+        android:layout_alignLeft="@+id/imageViewGajah"
+        android:layout_alignStart="@+id/imageViewGajah"
+        android:layout_marginTop="20dp"/>
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/imageViewKambing"
         android:src="@drawable/kambing"
-        android:layout_alignTop="@+id/imageViewSapi"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_alignTop="@+id/imageViewGajah"
         android:layout_toRightOf="@+id/imageViewGajah"
         android:layout_toEndOf="@+id/imageViewGajah"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewBebek"
+        android:src="@drawable/bebek"
+        android:layout_alignTop="@+id/imageViewSapi"
+        android:layout_alignLeft="@+id/imageViewKambing"
+        android:layout_alignStart="@+id/imageViewKambing"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewKijang"
+        android:src="@drawable/kijang"
+        android:layout_below="@+id/imageViewSapi"
+        android:layout_toLeftOf="@+id/imageViewKambing"
+        android:layout_toStartOf="@+id/imageViewKambing"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewKucing"
+        android:src="@drawable/kucing"
+        android:layout_alignTop="@+id/imageViewKijang"
+        android:layout_alignLeft="@+id/imageViewBebek"
+        android:layout_alignStart="@+id/imageViewBebek"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewJaran"
+        android:src="@drawable/kuda"
+        android:layout_below="@+id/imageViewKijang"
+        android:layout_toLeftOf="@+id/imageViewKambing"
+        android:layout_toStartOf="@+id/imageViewKambing"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewMonyet"
+        android:src="@drawable/monyet"
+        android:layout_alignTop="@+id/imageViewJaran"
+        android:layout_alignLeft="@+id/imageViewKucing"
+        android:layout_alignStart="@+id/imageViewKucing"/>
+
 </RelativeLayout>
+
