@@ -88,6 +88,24 @@ public class KewanMainActivity extends Activity {
                 startActivity(new Intent(KewanMainActivity.this, JaranActivity.class));
             }
         });
+
+        findViewById(R.id.imageViewLowo).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(KewanMainActivity.this, LowoActivity.class));
+            }
+        });
+
+        findViewById(R.id.imageViewPitik).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(KewanMainActivity.this, PitikActivity.class));
+            }
+        });
     }
 
     @Override

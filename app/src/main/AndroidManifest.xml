@@ -59,6 +59,10 @@
         </activity>
         <activity android:name=".BebekActivity">
         </activity>
+        <activity android:name=".LowoActivity">
+        </activity>
+        <activity android:name=".PitikActivity">
+        </activity>
     </application>
 
 </manifest>

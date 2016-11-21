@@ -8,13 +8,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.KijangActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.LowoActivity">
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:id="@+id/imageView6"
-        android:src="@drawable/kijang"
+        android:src="@drawable/lowo"
         android:layout_marginTop="30dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -25,7 +25,7 @@
         style="@style/Base.TextAppearance.AppCompat.Display1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="KOMPRENG"
+        android:text="KAMPRET"
         android:id="@+id/textView14"
         android:textColor="@color/accent_material_light"
         android:layout_below="@+id/imageView6"
@@ -36,7 +36,7 @@
         style="@style/Base.TextAppearance.AppCompat.Headline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Arane anak Kidang yaiku KOMPRENG"
+        android:text="Arane anak Lawa yaiku KAMPRET"
         android:id="@+id/textView15"
         android:textAlignment="center"
         android:layout_below="@+id/textView14"
@@ -47,7 +47,7 @@
         style="@style/Base.TextAppearance.AppCompat.Headline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Namanya anak Kijang adalah KOMPRENG"
+        android:text="Namanya anak Kelelawar adalah KAMPRET"
         android:id="@+id/textView4"
         android:textAlignment="center"
         android:layout_below="@+id/textView15"
