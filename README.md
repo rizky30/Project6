@@ -7,6 +7,8 @@
 #### Di menu tembang kami menyediakan beberapa tembang yang biasa nya ditujukan kepada anak-anak.
 #### Di menu hewan kami menyediakan beberapa gambar hewan yang bila ditekan muncul bahasa jawa dari hewan tersebut dan bahasa jawa dari anaknya.
 [App-debug](https://drive.google.com/open?id=0BzjEMTJfmJXnaVM3YlhtT1ZUODg)
+
+
 ![ScreenShot 1](https://docs.google.com/uc?id=0BzjEMTJfmJXndlRvOGx5Rk9faWc)
 ![ScreenShot 2](https://docs.google.com/uc?id=0BzjEMTJfmJXnMzQ4b28yZ2w3NGs)
 ![ScreenShot 3](https://docs.google.com/uc?id=0BzjEMTJfmJXnc3VUaGRhbGVuZEE)
@@ -17,6 +19,8 @@
 ![ScreenShot 8](https://docs.google.com/uc?id=0BzjEMTJfmJXnd0RnZG5GSFh5MlU)
 ![ScreenShot 9](https://docs.google.com/uc?id=0BzjEMTJfmJXnblM2YTZ5eV9KN1U)
 ![ScreenShot 10](https://docs.google.com/uc?id=0BzjEMTJfmJXnaVk3STh1OGdrLTA)
+
+
 [Video App](https://drive.google.com/open?id=0BzjEMTJfmJXnSTZ0ME5aRWs0Qjg)
 
 
