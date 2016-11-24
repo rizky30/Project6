@@ -59,3 +59,4 @@ public class InfoActivity extends Activity
         if (mediaPlayer != null)
             mediaPlayer.release();
     }}
+
