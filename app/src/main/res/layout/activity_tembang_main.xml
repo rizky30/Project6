@@ -14,82 +14,47 @@
         tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.TembangMainActivity">
 
         <ImageView
-            android:id="@+id/imageViewApaTembang"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center_horizontal"
-            android:paddingRight="10dp"
-            android:paddingTop="5dp"
-            android:src="@drawable/apatembang" />
-
-        <ImageView
-            android:id="@+id/imageViewDefinisi"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center_horizontal"
-            android:src="@drawable/definisi" />
+            android:id="@+id/imageViewtmbngdol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="25dp"
+            android:src="@drawable/dolan" />
 
         <ImageView
             android:id="@+id/imageViewKodok"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
+            android:layout_weight="0.97"
             android:paddingTop="25dp"
-            android:src="@drawable/note" />
-
-        <ImageView
-            android:id="@+id/imageViewTkodok"
-            android:layout_width="150dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center_horizontal"
             android:src="@drawable/kodokngorek" />
-
 
         <ImageView
             android:id="@+id/imageViewLir"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="174dp"
+            android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
-            android:paddingTop="25dp"
-            android:src="@drawable/note" />
-
-        <ImageView
-            android:id="@+id/imageViewTLirilir"
-            android:layout_width="150dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.80"
+            android:paddingTop="0dp"
             android:src="@drawable/lirilir" />
 
 
         <ImageView
             android:id="@+id/imageViewMenthok"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="174dp"
+            android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
-            android:paddingTop="25dp"
-            android:src="@drawable/note" />
-
-        <ImageView
-            android:id="@+id/imageViewTMenthok"
-            android:layout_width="150dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center_horizontal"
+            android:layout_weight="3.43"
+            android:paddingTop="0dp"
             android:src="@drawable/menthok" />
-
 
         <ImageView
             android:id="@+id/imageViewSluku"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
-            android:paddingTop="25dp"
-            android:src="@drawable/note" />
-
-        <ImageView
-            android:id="@+id/imageViewTSluku"
-            android:layout_width="150dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center_horizontal"
+            android:paddingTop="0dp"
             android:src="@drawable/sluku" />
 
     </LinearLayout>
