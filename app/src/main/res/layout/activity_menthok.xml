@@ -11,20 +11,9 @@
     tools:context="id.sch.smktelkom_mlg.project.xirpl606152433.belajarjawa.MenthokActivity">
 
     <ImageView
-        android:id="@+id/imageViewTMenthok"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_above="@+id/buttonPlay"
-        android:layout_alignLeft="@+id/buttonPlay"
-        android:layout_alignStart="@+id/buttonPlay"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="25dp"
-        android:src="@drawable/note" />
-
-    <ImageView
         android:id="@+id/imageViewMenthok"
         android:layout_width="150dp"
-        android:layout_height="30dp"
+        android:layout_height="150dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
@@ -38,6 +27,7 @@
         android:layout_above="@+id/buttonPause"
         android:layout_alignLeft="@+id/buttonPause"
         android:layout_alignStart="@+id/buttonPause"
+        android:background="@color/accent_material_dark"
         android:text="MULAI" />
 
     <Button
@@ -46,6 +36,7 @@
         android:layout_height="100dp"
         android:layout_above="@+id/buttonStop"
         android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
         android:text="MANDEK" />
 
     <Button
@@ -55,6 +46,7 @@
         android:layout_alignLeft="@+id/buttonPause"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/buttonPause"
+        android:background="@color/accent_material_dark"
         android:text="Rampung" />
 
 </RelativeLayout>
